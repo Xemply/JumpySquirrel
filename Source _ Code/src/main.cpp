@@ -31,7 +31,7 @@ extern "C" void setup(ModInfo& info) {
 //Makes squirrel tall
 MAKE_HOOK_FIND_CLASS_UNSAFE_INSTANCE(PlayerController_Start, "HexabodyVR.PlayerController", "HexaBodyPlayer3", "Start", void, Il2CppObject* self){
     PlayerController_Start(self);
-    CRASH_UNLESS(il2cpp_utils::SetFieldValue(self, "PlayerHeight", 30.0f));
+    CRASH_UNLESS(il2cpp_utils::SetFieldValue(self, "PlayerHeight", 50.0f));
 }
 
 // Called later on in the game loading - a good time to install function hooks
